@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
             {
-                 if (verticalMovement > 0)
+                if (verticalMovement > 0)
                 {
                     animatorPlayer.SetBool("North", true);
                 }
